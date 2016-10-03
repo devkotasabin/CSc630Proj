@@ -1,0 +1,30 @@
+html, body {margin:0;padding:0;height:100%;}
+
+#left {
+	overflow: auto;
+	height: 100vh;
+}
+
+#right {
+	overflow: auto;
+	height: 100vh;
+  
+}
+
+svg {
+  overflow: auto;
+  padding: 20px;
+}
+.node rect {
+  stroke: #333;
+  stroke-width: 1.5px;
+  fill: #fff;
+}
+.edgeLabel rect {
+  fill: #fff;
+}
+.edgePath {
+  stroke: #333;
+  stroke-width: 1.5px;
+  fill: none;
+}
